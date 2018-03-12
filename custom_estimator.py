@@ -69,7 +69,6 @@ def main(args):
    print('\nTest set accuracy: {accuracy:0.3f}\n'.format(**eval_result))
 
 
-
    # STEP :6  Generate predictions from the model
    expected = ['denied']
    predict_x = {
